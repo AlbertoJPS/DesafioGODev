@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "DesafioGoDev:Domain::Domain.Classroom::AddStudentsAtClassroom (dotnetcore3.1)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "Domain",
+                "lambdaHandler": "Domain::Domain.Classroom::AddStudentsAtClassroom"
+            },
+            "lambda": {
+                "runtime": "dotnetcore3.1",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Application/bin/Debug/net5.0/Application.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Application",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
