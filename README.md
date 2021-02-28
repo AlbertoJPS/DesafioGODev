@@ -6,6 +6,8 @@
 
 *dotnet run*
 
+
+
 Terá um menu bem intuitivo, onde escolherá a ação que deseja apenas digitando o número da opção
 
 Exemplo:
