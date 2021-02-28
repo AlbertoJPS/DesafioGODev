@@ -10,8 +10,17 @@ Terá um menu bem intuitivo, onde escolherá a ação que deseja apenas digitand
 Exemplo:
 
 ` 1 - Create a classroom `
+
 ` 2 - Create a coffeebreak room `
+
 ` 3 - Create students `
+
 ` 4 - Consult a student `
+
 ` 5 - Consult a classroom `
+
 ` 6 - Consult a coffeebreak room`
+
+` Choose an option: `
+
+                
